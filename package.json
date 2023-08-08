@@ -1,0 +1,25 @@
+{
+  "name": "llvm",
+  "displayName": "LLVM",
+  "description": "LLVM IR language support",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "llvm",
+      "aliases": ["LLVM", "llvm"],
+      "extensions": [".ll"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "llvm",
+      "scopeName": "source.llvm",
+      "path": "./syntaxes/llvm.tmLanguage.json"
+    }]
+  }
+}
