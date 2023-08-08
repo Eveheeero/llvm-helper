@@ -1,3 +1,0 @@
-[submodule "llvm-helper-engine"]
-	path = llvm-helper-engine
-	url = https://github.com/eveheeero/llvm-helper-engine.git
